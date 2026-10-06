@@ -1,0 +1,35 @@
+# ==========================================
+# Frontend (Next.js / Node.js)
+# ==========================================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+
+# ==========================================
+# Backend (Python / FastAPI)
+# ==========================================
+backend/venv/
+backend/env/
+backend/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Automatically downloaded local PDB data files (can be re-downloaded on build)
+backend/data/*.pdb
+
+# ==========================================
+# General & OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.env
